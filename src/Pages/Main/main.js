@@ -7,7 +7,11 @@ class main extends Component {
     return (
       <>
         <div className={Styles.wrapper}>
-          <Container></Container>
+          <Container>
+            <div className={Styles.block}>
+              <h1>Hello World!!!</h1>
+            </div>
+          </Container>
         </div>
       </>
     );

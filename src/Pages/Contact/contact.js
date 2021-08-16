@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Styles from "./error.module.css";
+import Styles from "./contact.module.css";
 
-class error extends Component {
+class contact extends Component {
   render() {
     return (
       <>
@@ -11,4 +11,4 @@ class error extends Component {
   }
 }
 
-export default error;
+export default contact;
