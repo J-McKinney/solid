@@ -1,0 +1,51 @@
+{
+    "Code Icons": {
+        "angular": "<i class="fab fa-angular"></i>",
+        "bootstrap": "<i class="fab fa-bootstrap"></i>",
+        "css3-alt": "<i class="fab fa-css3-alt"></i>",
+        "git": "<i class="fab fa-git-alt"></i>",
+        "github": "<i class="fab fa-github"></i>",
+        "html": "<i class="fab fa-html5"></i>",
+        "javascript": "<i class="fab fa-js-square"></i>",
+        "nodeJS": "<i class="fab fa-node"></i>",
+        "npm": "<i class="fab fa-npm"></i>",
+        "react": "<i class="fab fa-react"></i>",
+        "stack-overflow": "<i class="fab fa-stack-overflow"></i>",
+    },
+    
+    "alt-icons": {
+        "fighter-plane": "<i class="fas fa-fighter-jet"></i>",
+        "gamepad": "<i class="fas fa-gamepad"></i>",
+        "grip-fire": "<i class="fab fa-gripfire"></i>",
+        "laptop": "<i class="fas fa-laptop"></i>",
+        "mobilePhone": "<i class="fas fa-mobile-alt"></i>",
+        "phone-square": "<i class="fas fa-phone-square-alt"></i>",
+        "puzzle-piece": "<i class="fas fa-puzzle-piece"></i>",
+        "unity": "<i class="fab fa-unity"></i>",
+        "youtube": "<i class="fab fa-youtube"></i>",
+    },
+
+    "About Me Icons": {
+        "atom": "<i class="fas fa-atom"></i>",
+        "brain": "<i class="fas fa-brain"></i>",
+        "chart-pie": "<i class="fas fa-chart-pie"></i>",
+        "clock": "<i class="far fa-clock"></i>",
+        "code": "<i class="fas fa-code"></i>",
+        "eye": "<i class="far fa-eye"></i>",
+        "file-code": "<i class="far fa-file-code"></i>",
+        "hourglass": "<i class="fas fa-hourglass-half"></i>",
+        "meteor": "<i class="fas fa-meteor"></i>",
+        "tachometer": "<i class="fas fa-tachometer-alt"></i>",
+    },
+
+    "Link Icons": {
+        "behance": "<i class="fab fa-behance-square"></i>",
+        "envelope": "<i class="far fa-envelope"></i>",
+        "home": "<i class="fas fa-home"></i>",
+        "instagram": "<i class="fab fa-instagram"></i>",
+        "linkedIn": "<i class="fab fa-linkedin"></i>",
+        "pinterest": "<i class="fab fa-pinterest"></i>",
+        "playstation": "<i class="fab fa-playstation"></i>",
+        "slack": "<i class="fab fa-slack"></i>",
+    }
+}
