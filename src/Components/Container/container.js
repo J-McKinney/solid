@@ -1,12 +1,15 @@
 import React from "react";
 import Wrapper from "../Wrapper/wrapper";
+import Container from "react-bootstrap/Container";
 import Styles from "./container.module.css";
 
 function container(props) {
   return (
     <>
       <Wrapper>
-        <div className={Styles.container}>{props.children}</div>
+        <Container className={Styles.container} {...props}>
+          {props.children}
+        </Container>
       </Wrapper>
     </>
   );

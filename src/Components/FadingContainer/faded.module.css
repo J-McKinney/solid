@@ -1,0 +1,6 @@
+.wrapper {
+  min-height: 60vh;
+  min-width: 100vw;
+  /* background-image: linear-gradient(#1e7df0, #ffffff00, #1e7df0); */
+  background-image: linear-gradient(#ffffff00, #1e7df0, #ffffff00);
+}
