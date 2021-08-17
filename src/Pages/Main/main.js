@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Nav from "../../Components/Nav/nav";
-import Container from "../../Components/Container/container";
+// import Container from "../../Components/Container/container";
 import Styles from "./main.module.css";
 
 class main extends Component {
@@ -8,8 +8,8 @@ class main extends Component {
     return (
       <>
         <div className={Styles.wrapper}>
-          <Nav />
-          <Container></Container>
+        <Nav />
+          {/* <Container></Container> */}
         </div>
       </>
     );

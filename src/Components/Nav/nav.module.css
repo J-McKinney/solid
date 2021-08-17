@@ -7,14 +7,20 @@
   justify-content: space-between;
 }
 
+#home,
 #portfolio {
-  text-align: end;
+  text-align: right;
 }
 
 #chat {
-  text-align: left;
+  text-align: center;
 }
 
-.h4 {
+.href {
   color: white;
+  text-decoration: none;
 }
+
+/* /////////////////////////////////////////////////////////////////////////////// */
+
+

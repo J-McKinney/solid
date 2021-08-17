@@ -6,7 +6,9 @@ function container(props) {
   return (
     <>
       <Wrapper>
-        <div className={Styles.container}>{props.children}</div>
+        <div className={Styles.container} {...props}>
+          {props.children}
+        </div>
       </Wrapper>
     </>
   );
