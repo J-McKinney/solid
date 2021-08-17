@@ -9,6 +9,8 @@
   overflow: hidden;
   position: sticky;
   /* top: 0; */
+  box-shadow: 3px 3px 3px #000000, -1px -1px 5px #cfcfcf;
+  z-index: 1000;
 }
 
 #home,
