@@ -12,6 +12,7 @@
   /* background: #1e7df0; */
   /* box-sizing: border-box; */
   overflow: hidden;
+  background: #1e7df0;
 }
 
 .container {
@@ -28,6 +29,10 @@
   /* box-shadow: 3px 3px 3px #000000, -1px -1px 5px #cfcfcf; */
   /* box-shadow: 5px 5px 5px 3px #bbbbbb, -1px -1px 2px 2px #888888; */
   /* background: #1e7df0; */
+}
+
+.title {
+  background: #1e7df0;
 }
 
 @media only screen and (max-width: 1070px) {

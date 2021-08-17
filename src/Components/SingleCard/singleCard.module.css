@@ -99,6 +99,15 @@
   background: #333;
   text-decoration: none;
   color: #fff;
+  box-shadow: 5px 5px 5px 3px #bbbbbb, -1px -1px 2px 2px #888888;
+}
+
+.card .content a:active {
+  color: #000000;
+  box-shadow: 3px 3px 3px #cfcfcf, -1px -1px 5px #000000;
+  background: #cfcfcf;
+  position: relative;
+  top: 3px;
 }
 
 .p {

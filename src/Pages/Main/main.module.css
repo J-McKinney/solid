@@ -21,3 +21,10 @@
   font-size: 2rem;
   text-align: center;
 }
+
+.fav_wrapper {
+  background: #1e7df0;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+}

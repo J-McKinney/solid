@@ -1,7 +1,7 @@
 import React from "react";
-import Styles from "./faded.module.css";
+import Styles from "./fadeUp.module.css";
 
-const faded = () => {
+const fadeUp = () => {
   return (
     <>
       <div className={Styles.wrapper}></div>
@@ -9,4 +9,4 @@ const faded = () => {
   );
 };
 
-export default faded;
+export default fadeUp;

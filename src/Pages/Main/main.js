@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import Nav from "../../Components/Nav/nav";
 import AnimatedBG from "../../Components/AnimatedBG/animatedBG";
-// import Faded from "../../Components/FadingContainer/faded";
+import FadeDown from "../../Components/FadingContainer/fadeDown";
+import FadeUp from "../../Components/FadingContainer/fadeUp";
 import Container from "../../Components/Container/container";
 import Cards from "../../Components/Cards/cards";
 import Styles from "./main.module.css";
@@ -13,6 +14,7 @@ class main extends Component {
         <div className={Styles.wrapper}>
           <Nav />
           <AnimatedBG />
+          <FadeDown />
           <Container className={Styles.bioContainer}>
             I am a certified and versatile full stack developer with 3+ years of
             experience developing and managing complex sites and internal
@@ -21,7 +23,14 @@ class main extends Component {
             quality work and a high attention to detail. Demonstrating flawless
             code to create, maintain, and deploy websites and apps.
           </Container>
+          <FadeUp />
+          <div className={Styles.fav_wrapper}>
+            <Container className={Styles.fav_Container}>
+              <h2 className={Styles.fav_Title}>My Favorite Work</h2>
+            </Container>
+          </div>
           <Cards />
+          <FadeDown />
         </div>
       </>
     );
