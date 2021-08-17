@@ -6,27 +6,25 @@ function nav(props) {
     <>
       <div className={Styles.wrapper}>
         <div className="row">
-          <div id={Styles.home} className="col-sm-2">
+          <div id={Styles.home} className="col-md-2">
             <h4 className={Styles.h4}>
               <a className={Styles.href} href="/" alt="home">
                 Home
               </a>
             </h4>
           </div>
-          <div id={Styles.portfolio} className="col-sm-7">
+          <div id={Styles.portfolio} className="col-md-7">
             <h4 className={Styles.h4}>
               <a className={Styles.href} href="/" alt="portfolio">
                 Portfolio
               </a>
             </h4>
           </div>
-          <div id={Styles.chat} className="col-sm-3">
-            <h4 className={Styles.h4}>
-              <a className={Styles.href} href="/" alt="chat">
-                Let's Chat
-              </a>
-              {/* At 575px-576px the NavBar Breaks and "Let's Chat" stacks on itself */}
-            </h4>
+          <div id={Styles.chat} className="col-md-3">
+            <a className={Styles.href} href="/" alt="chat">
+              Let's Chat
+            </a>
+            {/* At 575px-576px the NavBar Breaks and "Let's Chat" stacks on itself */}
           </div>
         </div>
       </div>

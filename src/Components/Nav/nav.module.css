@@ -1,14 +1,14 @@
 .wrapper {
   background: #1e7df0;
-  min-width: 100vw;
-  /* min-width: 100%; */
+  /* min-width: 100vw; */
+  min-width: 100%;
   margin: 0;
   padding: 10px 0 10px 0;
   text-align: center;
   justify-content: space-between;
   overflow: hidden;
-  position: absolute;
-  top: 0;
+  /* position: absolute; */
+  /* top: 0; */
 }
 
 #home,
