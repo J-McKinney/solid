@@ -1,8 +1,8 @@
 *::-webkit-scrollbar {
-  display: none;
+  /* display: none; */
 }
 
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -39,4 +39,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
