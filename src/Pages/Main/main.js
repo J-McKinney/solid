@@ -8,9 +8,6 @@ class main extends Component {
       <>
         <div className={Styles.wrapper}>
           <Container>
-            <div className={Styles.block}>
-              <h1>Hello World!!!</h1>
-            </div>
           </Container>
         </div>
       </>
