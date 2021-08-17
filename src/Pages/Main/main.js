@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Nav from "../../Components/Nav/nav";
-// import AnimatedBG from "../../Components/AnimatedBG/animatedBG";
-// import Container from "../../Components/Container/container";
+import AnimatedBG from "../../Components/AnimatedBG/animatedBG";
+import Container from "../../Components/Container/container";
 import Cards from "../../Components/Cards/cards";
 import Styles from "./main.module.css";
 
@@ -12,9 +12,9 @@ class main extends Component {
         <div className={Styles.wrapper}>
           <Nav />
           {/* //////////Need Filler////////// */}
-          {/* <Container /> */}
+          <AnimatedBG />
           {/* //////////Need Filler////////// */}
-          <Cards />
+          <Container />
           <Cards />
         </div>
       </>

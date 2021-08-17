@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import anime from "animejs";
-import "./animatedBG.module.css";
+import Styles from "./style.module.css";
+import "./animatedBG.css";
 
 class animatedBG extends Component {
   state = {};
@@ -51,12 +52,9 @@ class animatedBG extends Component {
       <>
         <div className="BGWrapper">
           <div className="BGContainer">
-            {/* <h2>
-              <span>My First video on</span>
-              <br />
-              Anime.JS
-            </h2> */}
-            {/* <div className="blockOne" /> */}
+            <h2 className={Styles.title}>
+              <span className={Styles.span}>Jesse McKinney</span>
+            </h2>
           </div>
         </div>
       </>

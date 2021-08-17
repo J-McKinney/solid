@@ -5,7 +5,7 @@ function nav(props) {
   return (
     <>
       <div className={Styles.wrapper}>
-        <div className="row">
+        <div id={Styles.row} className="row">
           <div id={Styles.home} className="col-md-2">
             <h4 className={Styles.h4}>
               <a className={Styles.href} href="/" alt="home">
@@ -21,9 +21,11 @@ function nav(props) {
             </h4>
           </div>
           <div id={Styles.chat} className="col-md-3">
-            <a className={Styles.href} href="/" alt="chat">
-              Let's Chat
-            </a>
+            <h4 className={Styles.h4}>
+              <a className={Styles.href} href="/" alt="chat">
+                Let's Chat
+              </a>
+            </h4>
             {/* At 575px-576px the NavBar Breaks and "Let's Chat" stacks on itself */}
           </div>
         </div>

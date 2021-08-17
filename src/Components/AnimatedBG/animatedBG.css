@@ -12,7 +12,7 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #61dafb;
+    background: #1e7df0;
   }
   
   .BGContainer {
@@ -50,7 +50,7 @@
     width: 50px;
     height: 100px;
     /* background: #61dafb; */
-    background: #282c34;
+    background: #ffffff;
     /* border-style: solid; */
     border-width: 1px;
   }

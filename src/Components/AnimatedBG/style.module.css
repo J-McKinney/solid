@@ -1,0 +1,18 @@
+.title {
+  color: #1e7df0;
+  text-align: center;
+  font-size: 12vw;
+  line-height: 0.6em;
+  z-index: 1000;
+  font-weight: 900;
+  /* background: #ffffff; */
+  padding-bottom: 100px;
+  /* border-radius: 5%; */
+}
+
+.span {
+  font-size: 0.2em;
+  letter-spacing: 0.4em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
