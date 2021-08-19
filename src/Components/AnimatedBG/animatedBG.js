@@ -14,7 +14,9 @@ class animatedBG extends Component {
 
   animateBlocks = () => {
     let container = document.querySelector(".BGContainer");
-    for (var i = 0; i <= 500; i++) {
+    // for (var i = 0; i <= 500; i++) {
+      
+    for (var i = 0; i <= 0; i++) {
       // let array= []
       let blocks = document.createElement("div");
       // blocks.style.background = "red";
@@ -26,16 +28,18 @@ class animatedBG extends Component {
     anime({
       targets: ".block",
       translateX: function () {
+        // return anime.random(-200, 200);
         return anime.random(-1700, 1700);
       },
       translateY: function () {
+        // return anime.random(-200, 200);
         return anime.random(-1500, 1500);
       },
       scale: function () {
         return anime.random(1, 5);
+        // return anime.random(1, 2);
       },
       easing: "linear",
-      // easing: "easeInOutSine",
       // easing: "easeInOutCirc",
       duration: 7000,
       boxShadow: function () {

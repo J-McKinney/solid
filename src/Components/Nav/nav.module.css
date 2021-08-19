@@ -9,7 +9,7 @@
   overflow: hidden;
   position: sticky;
   /* top: 0; */
-  box-shadow: 3px 3px 3px #000000, -1px -1px 5px #cfcfcf;
+  /* box-shadow: 3px 3px 3px #000000, -1px -1px 5px #cfcfcf; */
   z-index: 1000;
 }
 
@@ -28,7 +28,7 @@
   border-radius: 10px;
   padding: 5px 20px;
   /* box-shadow: 5px 5px 5px 3px #bbbbbb, -1px -1px 2px 2px #888888; */
-  box-shadow: 3px 3px 3px #000000, -1px -1px 5px #cfcfcf;
+  /* box-shadow: 3px 3px 3px #000000, -1px -1px 5px #cfcfcf; */
 }
 
 .href:hover {

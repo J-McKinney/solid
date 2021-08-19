@@ -16,12 +16,15 @@ class main extends Component {
           <AnimatedBG />
           <FadeDown />
           <Container className={Styles.bioContainer}>
-            I am a certified and versatile full stack developer with 3+ years of
-            experience developing and managing complex sites and internal
-            frameworks seeking a full time position in development. Specializing
-            in JavaScript frameworks and responsive designs with dedication to
-            quality work and a high attention to detail. Demonstrating flawless
-            code to create, maintain, and deploy websites and apps.
+            <p className={Styles.bioP}>
+              I am a certified and versatile full stack developer with 3+ years
+              of experience developing and managing complex sites and internal
+              frameworks seeking a full time position in development.
+              Specializing in JavaScript frameworks and responsive designs with
+              dedication to quality work and a high attention to detail.
+              Demonstrating flawless code to create, maintain, and deploy
+              websites and apps.
+            </p>
           </Container>
           <FadeUp />
           <div className={Styles.fav_wrapper}>
