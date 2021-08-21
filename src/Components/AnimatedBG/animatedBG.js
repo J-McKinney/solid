@@ -15,14 +15,10 @@ class animatedBG extends Component {
   animateBlocks = () => {
     let container = document.querySelector(".BGContainer");
     // for (var i = 0; i <= 500; i++) {
-      
-    for (var i = 0; i <= 0; i++) {
-      // let array= []
+      for (var i = 0; i <= 0; i++) {
       let blocks = document.createElement("div");
-      // blocks.style.background = "red";
       blocks.classList.add("block");
       container.appendChild(blocks);
-      // array.unshift(blocks)
     }
 
     anime({
