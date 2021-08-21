@@ -37,12 +37,12 @@ class animatedBG extends Component {
       },
       easing: "linear",
       // easing: "easeInOutCirc",
-      duration: 4000,
-      // duration: 7000,
+      // duration: 4000,
+      duration: 7000,
       boxShadow: function () {
         return "10px 10px 50px rgba(0, 0, 0, 0.6)";
       },
-      delay: anime.stagger(10),
+      delay: anime.stagger(100),
       // Complete the animation effect on screen
       // complete: this.animateBlocks,
     });
