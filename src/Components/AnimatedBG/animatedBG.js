@@ -14,8 +14,8 @@ class animatedBG extends Component {
 
   animateBlocks = () => {
     let container = document.querySelector(".BGContainer");
-    // for (var i = 0; i <= 500; i++) {
-      for (var i = 0; i <= 0; i++) {
+    for (var i = 0; i <= 400; i++) {
+      // for (var i = 0; i <= 10; i++) {
       let blocks = document.createElement("div");
       blocks.classList.add("block");
       container.appendChild(blocks);
