@@ -48,3 +48,14 @@
   border-bottom-right-radius: 12px;
   border-left-style: none;
 }
+
+.ul {
+  margin-left: -20px;
+  color: black;
+  font-weight: 400;
+}
+
+.li {
+  list-style-type: none;
+  line-height: 28px;
+}

@@ -39,6 +39,8 @@
   /* /////   This controls the text in the box/top-image of the cards   /////  */
   content: attr(data-text);
   font-size: 0.7em;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 1px;
   /* /////   This controls the text in the box/top-image of the cards   /////  */
 }
 
@@ -52,6 +54,8 @@
   font-size: 2.8em;
   color: rgba(255, 255, 255, 0.6);
   font-weight: 700;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 1px;
 }
 
 .card .imgBx img {
