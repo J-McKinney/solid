@@ -6,7 +6,6 @@ import ThreeCol from "../../Components/ThreeColumns/threeColumns";
 import FadeUp from "../../Components/FadingContainer/fadeUp";
 import Container from "../../Components/Container/container";
 import Cards from "../../Components/Cards/cards";
-import Footer from "../../Components/Footer/footer";
 import Styles from "./main.module.css";
 
 class main extends Component {
@@ -37,7 +36,6 @@ class main extends Component {
           </div>
           <Cards />
           <FadeDown />
-          <Footer />
         </div>
       </>
     );
