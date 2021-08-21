@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/solid/static/css/main.f10fd931.chunk.css",
-    "main.js": "/solid/static/js/main.73353247.chunk.js",
-    "main.js.map": "/solid/static/js/main.73353247.chunk.js.map",
+    "main.css": "/solid/static/css/main.4b5e89f0.chunk.css",
+    "main.js": "/solid/static/js/main.11efd48e.chunk.js",
+    "main.js.map": "/solid/static/js/main.11efd48e.chunk.js.map",
     "runtime-main.js": "/solid/static/js/runtime-main.6ec18417.js",
     "runtime-main.js.map": "/solid/static/js/runtime-main.6ec18417.js.map",
-    "static/js/2.40756187.chunk.js": "/solid/static/js/2.40756187.chunk.js",
-    "static/js/2.40756187.chunk.js.map": "/solid/static/js/2.40756187.chunk.js.map",
+    "static/js/2.cd642537.chunk.js": "/solid/static/js/2.cd642537.chunk.js",
+    "static/js/2.cd642537.chunk.js.map": "/solid/static/js/2.cd642537.chunk.js.map",
     "static/js/3.0f4be077.chunk.js": "/solid/static/js/3.0f4be077.chunk.js",
     "static/js/3.0f4be077.chunk.js.map": "/solid/static/js/3.0f4be077.chunk.js.map",
     "index.html": "/solid/index.html",
-    "static/css/main.f10fd931.chunk.css.map": "/solid/static/css/main.f10fd931.chunk.css.map",
-    "static/js/2.40756187.chunk.js.LICENSE.txt": "/solid/static/js/2.40756187.chunk.js.LICENSE.txt",
-    "static/media/code.3d5b2623.jpg": "/solid/static/media/code.3d5b2623.jpg",
-    "static/media/design.2176ee26.jpg": "/solid/static/media/design.2176ee26.jpg",
-    "static/media/earn.4855492f.jpg": "/solid/static/media/earn.4855492f.jpg",
-    "static/media/launch.d5a72e72.jpg": "/solid/static/media/launch.d5a72e72.jpg"
+    "static/css/main.4b5e89f0.chunk.css.map": "/solid/static/css/main.4b5e89f0.chunk.css.map",
+    "static/js/2.cd642537.chunk.js.LICENSE.txt": "/solid/static/js/2.cd642537.chunk.js.LICENSE.txt",
+    "static/media/golf.bde6e14b.jpg": "/solid/static/media/golf.bde6e14b.jpg",
+    "static/media/launch.d5a72e72.jpg": "/solid/static/media/launch.d5a72e72.jpg",
+    "static/media/microphone.fefd18bd.jpg": "/solid/static/media/microphone.fefd18bd.jpg",
+    "static/media/vapor.8870466a.jpg": "/solid/static/media/vapor.8870466a.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.6ec18417.js",
-    "static/js/2.40756187.chunk.js",
-    "static/css/main.f10fd931.chunk.css",
-    "static/js/main.73353247.chunk.js"
+    "static/js/2.cd642537.chunk.js",
+    "static/css/main.4b5e89f0.chunk.css",
+    "static/js/main.11efd48e.chunk.js"
   ]
 }
