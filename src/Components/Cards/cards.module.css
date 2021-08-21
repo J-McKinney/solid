@@ -31,10 +31,6 @@
   /* background: #1e7df0; */
 }
 
-.title {
-  background: #1e7df0;
-}
-
 @media only screen and (max-width: 1070px) {
   .wrapper {
     box-sizing: border-box;

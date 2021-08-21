@@ -1,0 +1,28 @@
+.wrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  position: relative;
+  text-align: center;
+}
+
+.firstColumn, .secondColumn, .thirdColumn{
+  padding: 20px;
+}
+
+.firstColumn {
+  background: black;
+}
+
+.secondColumn {
+  background: blue;
+}
+
+.thirdColumn {
+  background: green;
+}
