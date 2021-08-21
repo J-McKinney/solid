@@ -27,7 +27,6 @@ class main extends Component {
               websites and apps.
             </p>
           </Container>
-          <ThreeCol />
           <FadeUp />
           <div className={Styles.fav_wrapper}>
             <Container className={Styles.fav_Container}>
@@ -36,6 +35,7 @@ class main extends Component {
           </div>
           <Cards />
           <FadeDown />
+          <ThreeCol />
         </div>
       </>
     );

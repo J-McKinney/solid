@@ -1,0 +1,16 @@
+.wrapper {
+  margin: 0;
+  padding: 0;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.container {
+  width: 250px;
+  margin-bottom: 150px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}

@@ -1,28 +1,17 @@
 .wrapper {
-  width: 100%;
-  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   align-content: center;
-  position: relative;
-  text-align: center;
+  border-color: blue;
+  border-width: 2px;
+  border-style: solid;
 }
 
-.firstColumn, .secondColumn, .thirdColumn{
-  padding: 20px;
-}
-
-.firstColumn {
-  background: black;
-}
-
-.secondColumn {
-  background: blue;
-}
-
-.thirdColumn {
-  background: green;
-}

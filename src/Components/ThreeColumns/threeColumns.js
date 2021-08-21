@@ -6,43 +6,34 @@ function threeColumns(props) {
   return (
     <>
       <div className={Styles.wrapper}>
-        <div className="row">
-          <div className="col-md-4">
-            <OneColumn
-              className={Styles.firstColumn}
-              icon="icon"
-              title="Title"
-              titleContent="Title Content"
-              secondTitle="Second Title"
-              secondTitleContent="Second Title Content"
-              thirdTitle="Third Title"
-              thirdTitleContent="Third Title Content"
-            />
-          </div>
-          <div className="col-md-4">
-            <OneColumn
-              className={Styles.secondColumn}
-              icon="icon"
-              title="Title"
-              titleContent="Title Content"
-              secondTitle="Second Title"
-              secondTitleContent="Second Title Content"
-              thirdTitle="Third Title"
-              thirdTitleContent="Third Title Content"
-            />
-          </div>
-          <div className="col-md-4">
-            <OneColumn
-              className={Styles.thirdColumn}
-              icon="icon"
-              title="Title"
-              titleContent="Title Content"
-              secondTitle="Second Title"
-              secondTitleContent="Second Title Content"
-              thirdTitle="Third Title"
-              thirdTitleContent="Third Title Content"
-            />
-          </div>
+        <div className={Styles.container}>
+          <OneColumn
+            icon="icon icon"
+            title="Title Title Title"
+            titleContent="Title Content Title Content Title Content Title Content Title Content"
+            secondTitle="Second Title"
+            secondTitleContent="Second Title Content"
+            thirdTitle="Third Title"
+            thirdTitleContent="Third Title Content"
+          />
+          <OneColumn
+            icon="icon icon"
+            title="Title Title Title"
+            titleContent="Title Content Title Content Title Content Title Content Title Content"
+            secondTitle="Second Title"
+            secondTitleContent="Second Title Content"
+            thirdTitle="Third Title"
+            thirdTitleContent="Third Title Content"
+          />
+          <OneColumn
+            icon="icon icon"
+            title="Title Title Title"
+            titleContent="Title Content Title Content Title Content Title Content Title Content"
+            secondTitle="Second Title"
+            secondTitleContent="Second Title Content"
+            thirdTitle="Third Title"
+            thirdTitleContent="Third Title Content"
+          />
         </div>
       </div>
     </>
