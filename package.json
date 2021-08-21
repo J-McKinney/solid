@@ -1,6 +1,7 @@
 {
   "name": "solid",
   "Author": "Jesse McKinney",
+  "homepage": "https://j-mckinney.github.io/solid/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
