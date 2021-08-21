@@ -7,33 +7,41 @@ function threeColumns(props) {
     <>
       <div className={Styles.wrapper}>
         <div className={Styles.container}>
-          <OneColumn
-            icon="icon icon"
-            title="Title Title Title"
-            titleContent="Title Content Title Content Title Content Title Content Title Content"
-            secondTitle="Second Title"
-            secondTitleContent="Second Title Content"
-            thirdTitle="Third Title"
-            thirdTitleContent="Third Title Content"
-          />
-          <OneColumn
-            icon="icon icon"
-            title="Title Title Title"
-            titleContent="Title Content Title Content Title Content Title Content Title Content"
-            secondTitle="Second Title"
-            secondTitleContent="Second Title Content"
-            thirdTitle="Third Title"
-            thirdTitleContent="Third Title Content"
-          />
-          <OneColumn
-            icon="icon icon"
-            title="Title Title Title"
-            titleContent="Title Content Title Content Title Content Title Content Title Content"
-            secondTitle="Second Title"
-            secondTitleContent="Second Title Content"
-            thirdTitle="Third Title"
-            thirdTitleContent="Third Title Content"
-          />
+          <div className={Styles.allCol}>
+            <div className={Styles.firstCol}>
+              <OneColumn
+                icon="icon icon"
+                title="Title Title Title"
+                titleContent="Title Content Title Content Title Content Title Content Title Content"
+                secondTitle="Second Title"
+                secondTitleContent="Second Title Content"
+                thirdTitle="Third Title"
+                thirdTitleContent="Third Title Content"
+              />
+            </div>
+            <div className={Styles.secondCol}>
+              <OneColumn
+                icon="icon icon"
+                title="Title Title Title"
+                titleContent="Title Content Title Content Title Content Title Content Title Content"
+                secondTitle="Second Title"
+                secondTitleContent="Second Title Content"
+                thirdTitle="Third Title"
+                thirdTitleContent="Third Title Content"
+              />
+            </div>
+            <div className={Styles.thirdCol}>
+              <OneColumn
+                icon="icon icon"
+                title="Title Title Title"
+                titleContent="Title Content Title Content Title Content Title Content Title Content"
+                secondTitle="Second Title"
+                secondTitleContent="Second Title Content"
+                thirdTitle="Third Title"
+                thirdTitleContent="Third Title Content"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </>
