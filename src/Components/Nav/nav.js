@@ -19,14 +19,22 @@ function nav(props) {
           </div>
           <div id={Styles.portfolio} className="col-md-7">
             <h4 className={Styles.h4}>
-              <a className={Styles.href} href="#portfolio" alt="portfolio">
+              <a
+                className={Styles.href}
+                href="https://j-mckinney.github.io/solid/"
+                alt="portfolio"
+              >
                 Portfolio
               </a>
             </h4>
           </div>
           <div id={Styles.chat} className="col-md-3">
             <h4 className={Styles.h4}>
-              <a className={Styles.href} href="#contact" alt="chat">
+              <a
+                className={Styles.href}
+                href="https://j-mckinney.github.io/solid/"
+                alt="chat"
+              >
                 Let's Chat
               </a>
             </h4>

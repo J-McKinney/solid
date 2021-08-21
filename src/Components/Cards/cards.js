@@ -16,7 +16,7 @@ function cards(props) {
             imgSrc={Microphone}
             imgAlt="SimilTune"
             hoverCardTitle="SimilTune"
-            link="/"
+            link="https://j-mckinney.github.io/solid/"
             hoverCardParagraph="A Speech-to-Text song association game. A word will be shown on the screen, you will have 10 sec to sing a song that contains that word. Points are based on time left on submit."
             linkTitle="Read More"
           />
@@ -25,7 +25,7 @@ function cards(props) {
             imgSrc={Golf}
             imgAlt="Fore-Cast"
             hoverCardTitle="Fore-Cast"
-            link="/"
+            link="https://j-mckinney.github.io/solid/"
             hoverCardParagraph="Using reverse-geocoding, Yelp API, and the Weather API to know the weather and find the closest places to golf in a 50 mile radius."
             linkTitle="Read More"
           />
@@ -34,7 +34,7 @@ function cards(props) {
             imgSrc={Vapor}
             imgAlt="Vent"
             hoverCardTitle="Vent"
-            link="/"
+            link="https://j-mckinney.github.io/solid/"
             hoverCardParagraph="A personal journal to share with anyone signed on. Anything posted will expire in 30 min on submit. Go ahead and vent."
             linkTitle="Read More"
           />
@@ -43,7 +43,7 @@ function cards(props) {
             imgSrc={Launch}
             imgAlt="J-BOT"
             hoverCardTitle="J-BOT"
-            link="/"
+            link="https://j-mckinney.github.io/solid/"
             hoverCardParagraph="STEM learning site for kids to learn by playing games. Parents can monitor their kids screen time and progress through the exercises."
             linkTitle="Read More"
           />
