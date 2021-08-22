@@ -35,8 +35,8 @@
   .block:hover {
     transition: 0.2s ease-in-out;
     background: #ffffff;
-    /* border-style: solid; */
-    /* border-width: 1px; */
-    /* border-color: #1e7df0; */
+    border-style: solid;
+    border-width: 1px;
+    border-color: #1e7df0;
   }
   
