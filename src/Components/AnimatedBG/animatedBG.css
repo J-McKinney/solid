@@ -26,7 +26,7 @@
     width: 50px;
     height: 100px;
     /* background: #61dafb; */
-    background: #ffffff;
+    background: #1e7cf0b2;
     /* border-style: solid; */
     border-width: 1px;
     border-radius: 6px;
@@ -34,9 +34,9 @@
 
   .block:hover {
     transition: 0.2s ease-in-out;
-    background: #1e7cf0b2;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #1e7df0;
+    background: #ffffff;
+    /* border-style: solid; */
+    /* border-width: 1px; */
+    /* border-color: #1e7df0; */
   }
   
