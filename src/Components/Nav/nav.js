@@ -20,7 +20,9 @@ class nav extends Component {
   componentWillUnmount() {
     window.removeEventListener("scroll", this.onscroll);
   }
-  componentDidUpdate() {}
+  componentDidUpdate() {
+    console.log(this.state.scrollPos);
+  }
 
   onscroll = () => {
     this.setState({
@@ -169,9 +171,9 @@ class nav extends Component {
                           <Row className={NavStyle.contentHeader}>
                             <h3 className={NavStyle.h3}>
                               <a
-                                href="#top-of-page"
+                                href="localhost:3000/solid"
                                 className={NavStyle.a}
-                                style={{ color: "#1e7df0" }}
+                                style={{ color: "#fff" }}
                               >
                                 Jesse McKinney
                               </a>
@@ -180,25 +182,25 @@ class nav extends Component {
                           <Row className={NavStyle.contentRow}>
                             <Col className={NavStyle.contentCol}>
                               <a
-                                href="#about-info"
+                                href="localhost:3000/solid"
                                 className={NavStyle.a}
-                                style={{ color: "#1e7df0" }}
+                                style={{ color: "#fff" }}
                               >
                                 About Me
                               </a>
                               <br />
                               <a
-                                href="#portfolio-info"
+                                href="localhost:3000/solid"
                                 className={NavStyle.a}
-                                style={{ color: "#1e7df0" }}
+                                style={{ color: "#fff" }}
                               >
                                 Portfolio
                               </a>
                               <br />
                               <a
-                                href="#contact-info"
+                                href="localhost:3000/solid"
                                 className={NavStyle.a}
-                                style={{ color: "#1e7df0" }}
+                                style={{ color: "#fff" }}
                               >
                                 Contact Me
                               </a>

@@ -10,7 +10,7 @@ function threeColumns(props) {
           <div className={Styles.allCol}>
             <div className={Styles.firstCol}>
               <OneColumn
-                icon={<i class="fas fa-dice-d6"></i>}
+                icon={<i className="fas fa-dice-d6"></i>}
                 title="Website Design"
                 titleContent="Responsive websites built for an optimal user experience that achieves your business goals."
                 secondTitle="Things I enjoy designing:"
@@ -33,7 +33,7 @@ function threeColumns(props) {
             </div>
             <div className={Styles.secondCol}>
               <OneColumn
-                icon={<i class="fas fa-code"></i>}
+                icon={<i className="fas fa-code"></i>}
                 title="Full-Stack Developer"
                 titleContent="I like to code things from scratch, and enjoy bringing ideas to life in the browser."
                 secondTitle="Laguages I speak:"
@@ -53,7 +53,7 @@ function threeColumns(props) {
             </div>
             <div className={Styles.thirdCol}>
               <OneColumn
-                icon={<i class="fas fa-book"></i>}
+                icon={<i className="fas fa-book"></i>}
                 title="Collaboration"
                 titleContent="I genuinely care about people, and love helping fellow designers work on their craft."
                 secondTitle="Experiences I draw from:"
