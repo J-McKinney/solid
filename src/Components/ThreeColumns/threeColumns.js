@@ -54,7 +54,7 @@ function threeColumns(props) {
             <div className={Styles.thirdCol}>
               <OneColumn
                 icon={<i class="fas fa-book"></i>}
-                title="Mentor"
+                title="Collaboration"
                 titleContent="I genuinely care about people, and love helping fellow designers work on their craft."
                 secondTitle="Experiences I draw from:"
                 secondTitleContent="UX/UI, Product design, Freelancing, Tutorial videos, ads, & my friends and family"
@@ -64,7 +64,8 @@ function threeColumns(props) {
                     <li className={Styles.li}>3+ years of experience</li>
                     <li className={Styles.li}>150+ Open repositories</li>
                     <li className={Styles.li}>2900+ Total Commits</li>
-                  </ul>}
+                  </ul>
+                }
               />
             </div>
           </div>
