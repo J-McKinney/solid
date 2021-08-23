@@ -3,13 +3,11 @@
   /* min-width: 100vw; */
   min-width: 100%;
   margin: 0;
-  padding: 15px 0 10px 0;
+  padding: 4px 0 0 0;
   text-align: center;
   justify-content: space-between;
   overflow: hidden;
   position: sticky;
-  /* top: 0; */
-  /* box-shadow: 3px 3px 3px #000000, -1px -1px 5px #cfcfcf; */
   z-index: 1000;
 }
 
@@ -27,8 +25,6 @@
   text-decoration: none;
   border-radius: 10px;
   padding: 5px 20px;
-  /* box-shadow: 5px 5px 5px 3px #bbbbbb, -1px -1px 2px 2px #888888; */
-  /* box-shadow: 3px 3px 3px #000000, -1px -1px 5px #cfcfcf; */
 }
 
 .href:hover {
@@ -39,4 +35,20 @@
   position: relative;
   top: 3px;
   right: 1px;
+}
+
+.hamburgerNavBar {
+  display: none;
+}
+
+@media only screen and (max-width: 767.9px) {
+  .wrapper {
+    padding: 0;
+  }
+  #row {
+    display: none;
+  }
+  .hamburgerNavBar {
+    display: contents;
+  }
 }
