@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/solid/static/css/main.a8e60eb9.chunk.css",
-    "main.js": "/solid/static/js/main.c7001caf.chunk.js",
-    "main.js.map": "/solid/static/js/main.c7001caf.chunk.js.map",
-    "runtime-main.js": "/solid/static/js/runtime-main.a342be5d.js",
-    "runtime-main.js.map": "/solid/static/js/runtime-main.a342be5d.js.map",
-    "static/js/2.18cf5fd3.chunk.js": "/solid/static/js/2.18cf5fd3.chunk.js",
-    "static/js/2.18cf5fd3.chunk.js.map": "/solid/static/js/2.18cf5fd3.chunk.js.map",
-    "static/js/3.13b34f76.chunk.js": "/solid/static/js/3.13b34f76.chunk.js",
-    "static/js/3.13b34f76.chunk.js.map": "/solid/static/js/3.13b34f76.chunk.js.map",
+    "main.css": "/solid/static/css/main.2cd2d445.chunk.css",
+    "main.js": "/solid/static/js/main.40f955c0.chunk.js",
+    "main.js.map": "/solid/static/js/main.40f955c0.chunk.js.map",
+    "runtime-main.js": "/solid/static/js/runtime-main.55545f87.js",
+    "runtime-main.js.map": "/solid/static/js/runtime-main.55545f87.js.map",
+    "static/js/2.1bfa9841.chunk.js": "/solid/static/js/2.1bfa9841.chunk.js",
+    "static/js/2.1bfa9841.chunk.js.map": "/solid/static/js/2.1bfa9841.chunk.js.map",
+    "static/js/3.6c3f6701.chunk.js": "/solid/static/js/3.6c3f6701.chunk.js",
+    "static/js/3.6c3f6701.chunk.js.map": "/solid/static/js/3.6c3f6701.chunk.js.map",
     "index.html": "/solid/index.html",
-    "static/css/main.a8e60eb9.chunk.css.map": "/solid/static/css/main.a8e60eb9.chunk.css.map",
-    "static/js/2.18cf5fd3.chunk.js.LICENSE.txt": "/solid/static/js/2.18cf5fd3.chunk.js.LICENSE.txt",
+    "static/css/main.2cd2d445.chunk.css.map": "/solid/static/css/main.2cd2d445.chunk.css.map",
+    "static/js/2.1bfa9841.chunk.js.LICENSE.txt": "/solid/static/js/2.1bfa9841.chunk.js.LICENSE.txt",
     "static/media/golf.bde6e14b.jpg": "/solid/static/media/golf.bde6e14b.jpg",
     "static/media/launch.d5a72e72.jpg": "/solid/static/media/launch.d5a72e72.jpg",
     "static/media/microphone.fefd18bd.jpg": "/solid/static/media/microphone.fefd18bd.jpg",
     "static/media/vapor.8870466a.jpg": "/solid/static/media/vapor.8870466a.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a342be5d.js",
-    "static/js/2.18cf5fd3.chunk.js",
-    "static/css/main.a8e60eb9.chunk.css",
-    "static/js/main.c7001caf.chunk.js"
+    "static/js/runtime-main.55545f87.js",
+    "static/js/2.1bfa9841.chunk.js",
+    "static/css/main.2cd2d445.chunk.css",
+    "static/js/main.40f955c0.chunk.js"
   ]
 }
