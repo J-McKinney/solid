@@ -5,17 +5,26 @@ class nav extends Component {
   state = {
     show: true,
     scrollPos: 0,
+    prevScrollPos: 0,
     open: false,
     changeNavBar: false,
   };
+
   componentDidMount() {
     window.addEventListener("scroll", this.onscroll);
   }
+
   componentWillUnmount() {
     window.removeEventListener("scroll", this.onscroll);
   }
+
   componentDidUpdate() {
-    console.log(this.state.scrollPos);
+    // console.log("open: " + this.state.open);
+    console.log("show: " + this.state.show);
+    // console.log("chang: " + this.state.changeNavBar);
+    if (this.state.scrollPos > this.state.prevScrollPos) {
+      // console.log("Hello");
+    }
   }
 
   onscroll = () => {
@@ -25,6 +34,11 @@ class nav extends Component {
       open: false,
       changeNavBar: false,
     });
+    if (this.state.scrollPos <= 0 - 0.0001) {
+      this.setState({
+        prevScrollPos: this.state.scrollPos,
+      });
+    }
   };
 
   toggleCollapse = (e) => {
@@ -81,7 +95,13 @@ class nav extends Component {
           </div>
           {/* Full Screen NavBar */}
           {/* Hamburger NavBar */}
-          <div className={Styles.hamburgerNavBar}></div>
+          <div className={Styles.hamburgerNavBar}>
+            <div id={Styles.brgrRow} className="row">
+              <div id={Styles.brgrCol} className="col-md-12">
+                Hello World
+              </div>
+            </div>
+          </div>
           {/* Hamburger NavBar */}
         </div>
       </>
