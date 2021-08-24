@@ -28,9 +28,9 @@
 }
 
 .bioP {
-  -webkit-text-fill-color: white;
+  -webkit-text-fill-color: black;
   -webkit-text-stroke-color: #1e7df0;
-  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 1px;
 }
 
 .fav_wrapper {
