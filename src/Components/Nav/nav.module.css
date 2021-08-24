@@ -37,7 +37,7 @@
   right: 1px;
 }
 
-.hamburgerNavBar {
+.hamburgerNavBarWrapper {
   display: none;
 }
 
@@ -76,7 +76,7 @@
   #row {
     display: none;
   }
-  .hamburgerNavBar {
+  .hamburgerNavBarWrapper {
     display: contents;
   }
 }
