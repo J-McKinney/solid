@@ -18,10 +18,29 @@
   text-transform: uppercase;
 }
 
-@media only screen and (max-width: 767.9px) {
+@media only screen and (max-width: 767.5px) {
   .title {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .span {
     -webkit-text-fill-color: white;
     /* -webkit-text-stroke-color: #1e7df0; */
     -webkit-text-stroke-width: 1px;
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 541px) {
+  .title {
+    line-height: 2em;
+    margin: 15px;
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  .span {
+    font-size: 1.2em;
   }
 }

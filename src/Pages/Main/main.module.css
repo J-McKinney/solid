@@ -5,7 +5,7 @@
 }
 
 .bioContainer {
-  margin: 25vh;
+  margin: 15vh;
   padding: 2.5%;
   position: relative;
   display: flex;
@@ -28,7 +28,7 @@
 }
 
 .bioP {
-  -webkit-text-fill-color: black;
+  -webkit-text-fill-color: #000;
   -webkit-text-stroke-color: #1e7df0;
   -webkit-text-stroke-width: 1px;
 }
@@ -38,4 +38,29 @@
   color: #fff;
   text-align: center;
   justify-content: center;
+}
+
+@media only screen and (max-width: 991.9px) {
+  .bioContainer {
+    margin: 10vh;
+  }
+  .bioP {
+    font-size: 1.5rem;
+    -webkit-text-fill-color: #1e7df0;
+  }
+}
+
+@media only screen and (max-width: 767.9px) {
+  .bioContainer {
+    margin: 5vh;
+  }
+}
+
+@media only screen and (max-width: 541.9px) {
+  .bioContainer {
+    margin: 2.5vh;
+  }
+  .bioP {
+    font-size: 1.25rem;
+  }
 }

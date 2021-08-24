@@ -23,11 +23,6 @@ class nav extends Component {
     // console.log("show: " + this.state.show);
     // console.log("open: " + this.state.open);
     // console.log("chang: " + this.state.changeNavBar);
-    //
-    // if (this.state.scrollPos > this.state.prevScrollPos) {
-    // console.log("Hello");
-    // }
-    //
   }
 
   onscroll = () => {
@@ -41,7 +36,7 @@ class nav extends Component {
       this.setState({
         prevScrollPos: this.state.scrollPos,
       });
-      // console.log("show: " + this.state.show);
+      console.log("show: " + this.state.show);
     }
   };
 
