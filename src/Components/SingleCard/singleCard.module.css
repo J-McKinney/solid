@@ -6,8 +6,6 @@
   width: 46%;
   margin: 30px 0;
   border-radius: 6px;
-  /* overflow: hidden; */
-  /* box-shadow: 5px 5px 5px 3px #bbbbbb, -1px -1px 2px 2px #888888; */
   box-shadow: 3px 3px 3px #000000, -1px -1px 5px #cfcfcf;
 }
 
@@ -34,11 +32,10 @@
   top: calc(50% - 75px);
   transition: 0.5s ease-in-out;
   box-shadow: 3px 3px 3px #000000, -1px -1px 5px #cfcfcf;
-  /* background: #ff0057; */
-  /* background: #61dafb; */
   /* /////   This controls the text in the box/top-image of the cards   /////  */
   content: attr(data-text);
   font-size: 0.7em;
+  /* -webkit-text-fill-color: #000; */
   -webkit-text-stroke-color: black;
   -webkit-text-stroke-width: 1px;
   /* /////   This controls the text in the box/top-image of the cards   /////  */

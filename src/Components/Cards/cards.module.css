@@ -1,16 +1,7 @@
-/* * {
-  margin: 0;
-  padding: 0;
-  font-family: "Times New Roman", Times, serif;
-} */
-
 .wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* min-height: 100vh; */
-  /* background: #1e7df0; */
-  /* box-sizing: border-box; */
   overflow: hidden;
   background: #1e7df0;
 }
@@ -18,17 +9,11 @@
 .container {
   position: relative;
   width: 86.5%;
-  /* width: 100vw; */
-  /* width: 1000px; */
-  /* width needs to be at 86.5% or 1000px */
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   margin: 20px;
   border-radius: 6px;
-  /* box-shadow: 3px 3px 3px #000000, -1px -1px 5px #cfcfcf; */
-  /* box-shadow: 5px 5px 5px 3px #bbbbbb, -1px -1px 2px 2px #888888; */
-  /* background: #1e7df0; */
 }
 
 @media only screen and (max-width: 1070px) {
