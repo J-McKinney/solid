@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import Nav from "../../Components/Nav/nav";
 import AnimatedBG from "../../Components/AnimatedBG/animatedBG";
-import FadeDown from "../../Components/FadingContainer/fadeDown";
+// import FadeDown from "../../Components/FadingContainer/fadeDown";
 import ThreeCol from "../../Components/ThreeColumns/threeColumns";
-import FadeUp from "../../Components/FadingContainer/fadeUp";
+// import FadeUp from "../../Components/FadingContainer/fadeUp";
 import Container from "../../Components/Container/container";
-import Cards from "../../Components/Cards/cards";
+// import Cards from "../../Components/Cards/cards";
 import Styles from "./main.module.css";
 
 class main extends Component {
@@ -13,9 +13,8 @@ class main extends Component {
     return (
       <>
         <div className={Styles.wrapper}>
-          <Nav />
           <AnimatedBG />
-          <FadeDown />
+          <Nav />
           <Container className={Styles.bioContainer}>
             <p className={Styles.bioP}>
               I am a certified and versatile full stack developer with 3+ years
@@ -28,14 +27,11 @@ class main extends Component {
             </p>
           </Container>
           <ThreeCol />
-          <FadeUp />
-          <div className={Styles.fav_wrapper}>
-            <Container className={Styles.fav_Container}>
-              <h2 className={Styles.fav_Title}>My Favorite Work</h2>
+          <div className={Styles.projectsWrapper}>
+            <Container className={Styles.projectsContainer}>
+              <h2 className={Styles.projectsTitle}>PROJECTS</h2>
             </Container>
           </div>
-          <Cards />
-          <FadeDown />
         </div>
       </>
     );

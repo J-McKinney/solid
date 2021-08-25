@@ -9,6 +9,7 @@ class nav extends Component {
     prevScrollPos: 0,
     open: false,
     changeNavBar: false,
+    windowHeight: 0,
   };
 
   componentDidMount() {
@@ -36,7 +37,8 @@ class nav extends Component {
       this.setState({
         prevScrollPos: this.state.scrollPos,
       });
-      console.log("show: " + this.state.show);
+      // console.log("show: " + this.state.show);
+      console.log("scroll: " + this.state.scrollPos);
     }
   };
 
@@ -58,27 +60,27 @@ class nav extends Component {
   // };
 
   render() {
-    const active = {
-      zIndex: "1001 !important",
-      backgroundColor: "#575f68ec",
-      color: "#fff",
-      position: "fixed",
-      height: "50px",
-      width: "100%",
-      visibility: "visible",
-      transition: "all 200ms ease-in",
-    };
-    const hidden = {
-      zIndex: "1001 !important",
-      backgroundColor: "#5e6f819a",
-      color: "#fff",
-      position: "fixed",
-      height: "50px",
-      width: "100%",
-      visibility: "hidden",
-      transition: "all 200ms ease-out",
-      transform: "translate(0, -100%)",
-    };
+    // const active = {
+    //   zIndex: "1001 !important",
+    //   backgroundColor: "#575f68ec",
+    //   color: "#fff",
+    //   position: "fixed",
+    //   height: "50px",
+    //   width: "100%",
+    //   visibility: "visible",
+    //   transition: "all 200ms ease-in",
+    // };
+    // const hidden = {
+    //   zIndex: "1001 !important",
+    //   backgroundColor: "#5e6f819a",
+    //   color: "#fff",
+    //   position: "fixed",
+    //   height: "50px",
+    //   width: "100%",
+    //   visibility: "hidden",
+    //   transition: "all 200ms ease-out",
+    //   transform: "translate(0, -100%)",
+    // };
     const bar = {
       width: "35px",
       height: "5px",

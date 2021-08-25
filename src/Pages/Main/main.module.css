@@ -33,11 +33,29 @@
   -webkit-text-stroke-width: 1px;
 }
 
-.fav_wrapper {
-  background: #1e7df0;
-  color: #fff;
+.projectsWrapper {
   text-align: center;
   justify-content: center;
+  text-align: center;
+}
+
+.projectsContainer {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projectsTitle {
+  -webkit-text-fill-color: #000;
+  -webkit-text-stroke-color: #1e7df0;
+  -webkit-text-stroke-width: 1px;
+  border-style: none;
+  border-bottom-color: #000;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
 }
 
 @media only screen and (max-width: 991.9px) {
