@@ -7,7 +7,21 @@
   text-align: center;
   justify-content: space-between;
   overflow: hidden;
+  position: relative;
+  z-index: 1000;
+}
+
+.wrapper.fixed-top {
+  background: #1e7df0;
+  /* min-width: 100vw; */
+  min-width: 100%;
+  margin: 0;
+  padding: 4px 0 0 0;
+  text-align: center;
+  justify-content: space-between;
+  overflow: hidden;
   position: sticky;
+  top: 0;
   z-index: 1000;
 }
 

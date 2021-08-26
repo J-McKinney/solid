@@ -14,16 +14,25 @@ class nav extends Component {
 
   componentDidMount() {
     window.addEventListener("scroll", this.onscroll);
+    this.updateWindowDimensions();
+    window.addEventListener("resize", this.updateWindowDimensions);
   }
 
   componentWillUnmount() {
     window.removeEventListener("scroll", this.onscroll);
+    window.removeEventListener("resize", this.updateWindowDimensions);
   }
 
   componentDidUpdate() {
     // console.log("show: " + this.state.show);
     // console.log("open: " + this.state.open);
     // console.log("chang: " + this.state.changeNavBar);
+  }
+
+  updateWindowDimensions() {
+    this.setState({
+      windowHeight: window.innerHeight * -1,
+    });
   }
 
   onscroll = () => {
@@ -33,12 +42,14 @@ class nav extends Component {
       open: false,
       changeNavBar: false,
     });
-    if (this.state.scrollPos <= 0 - 0.0001) {
-      this.setState({
-        prevScrollPos: this.state.scrollPos,
-      });
-      // console.log("show: " + this.state.show);
-      console.log("scroll: " + this.state.scrollPos);
+    // if (this.state.windowHeight + this.state.scrollPos < 0) {
+    // const sticky = document.querySelector(".wrapper");
+    if (this.state.windowHeight > this.state.scrollPos) {
+      console.log("They are even and navbar should stick to the top!!!");
+      // sticky.classList.add("fixed-top");
+    } else {
+      // sticky.classList.remove("fixed-top")
+      console.log("Navbar should not be sticking to the top!!!");
     }
   };
 

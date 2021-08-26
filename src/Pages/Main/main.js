@@ -1,11 +1,8 @@
 import React, { Component } from "react";
 import Nav from "../../Components/Nav/nav";
 import AnimatedBG from "../../Components/AnimatedBG/animatedBG";
-// import FadeDown from "../../Components/FadingContainer/fadeDown";
 import ThreeCol from "../../Components/ThreeColumns/threeColumns";
-// import FadeUp from "../../Components/FadingContainer/fadeUp";
 import Container from "../../Components/Container/container";
-// import Cards from "../../Components/Cards/cards";
 import Styles from "./main.module.css";
 
 class main extends Component {
