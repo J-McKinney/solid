@@ -1,5 +1,4 @@
-.wrapper {
-  background: #1e7df0;
+.navBarWrapper {
   /* min-width: 100vw; */
   min-width: 100%;
   margin: 0;
@@ -9,10 +8,10 @@
   overflow: hidden;
   position: relative;
   z-index: 1000;
+  margin-bottom: 100px;
 }
 
-.wrapper.fixed-top {
-  background: #1e7df0;
+.navBarWrapper.fixed-top {
   /* min-width: 100vw; */
   min-width: 100%;
   margin: 0;
@@ -23,6 +22,10 @@
   position: sticky;
   top: 0;
   z-index: 1000;
+}
+
+#row {
+  background-color: #1e7df0 !important;
 }
 
 #home,
@@ -84,7 +87,7 @@
 /* Hamburger NavBar */
 
 @media only screen and (max-width: 767.9px) {
-  .wrapper {
+  .navBarWrapper {
     padding: 0;
   }
   #row {

@@ -43,12 +43,13 @@ class nav extends Component {
       changeNavBar: false,
     });
     // if (this.state.windowHeight + this.state.scrollPos < 0) {
-    // const sticky = document.querySelector(".wrapper");
+    const sticky = document.querySelector(".navBarWrapper");
+    // changed this from .wrapper to .row and now I can focus on both rows instead of the whole wrapper
     if (this.state.windowHeight > this.state.scrollPos) {
       console.log("They are even and navbar should stick to the top!!!");
-      // sticky.classList.add("fixed-top");
+      sticky.classList.add("fixed-top");
     } else {
-      // sticky.classList.remove("fixed-top")
+      sticky.classList.remove("fixed-top")
       console.log("Navbar should not be sticking to the top!!!");
     }
   };
@@ -110,7 +111,7 @@ class nav extends Component {
     };
     return (
       <>
-        <div className={Styles.wrapper}>
+        <div className="navBarWrapper">
           {/* Full Screen NavBar */}
           <div id={Styles.row} className="row">
             <div id={Styles.home} className="col-md-2">
