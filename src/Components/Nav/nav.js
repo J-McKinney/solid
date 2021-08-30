@@ -6,10 +6,8 @@ class nav extends Component {
   state = {
     show: true,
     scrollPos: 0,
-    prevScrollPos: 0,
     open: false,
     changeNavBar: false,
-    windowHeight: 0,
   };
 
   componentDidMount() {
@@ -27,31 +25,32 @@ class nav extends Component {
     // console.log("show: " + this.state.show);
     // console.log("open: " + this.state.open);
     // console.log("chang: " + this.state.changeNavBar);
+    // console.log("ScrollPos: " + this.state.scrollPos);
+    // console.log("PrevScrollPos: " + this.state.prevScrollPos);
   }
 
   updateWindowDimensions() {
-    this.setState({
-      windowHeight: window.innerHeight * -1,
-    });
+    window.addEventListener('scroll', function() {
+      if (window.scrollY > window.innerHeight) {
+        document.getElementById('navBarWrapper').classList.add('fixed-top');
+        // add padding top to show content behind navbar
+        let navbar_height = document.querySelector('#navBarWrapper').offsetHeight;
+        document.body.style.paddingTop = navbar_height + 'px';
+      } else {
+        document.getElementById('navBarWrapper').classList.remove('fixed-top');
+         // remove padding top from body
+        document.body.style.paddingTop = '0';
+      } 
+  });
   }
 
   onscroll = () => {
     this.setState({
-      scrollPos: document.body.getBoundingClientRect().top,
+      scrollPos: document.body.getBoundingClientRect().top * -1,
       show: document.body.getBoundingClientRect().top > this.state.scrollPos,
       open: false,
       changeNavBar: false,
     });
-    // if (this.state.windowHeight + this.state.scrollPos < 0) {
-    const sticky = document.querySelector(".navBarWrapper");
-    // changed this from .wrapper to .row and now I can focus on both rows instead of the whole wrapper
-    if (this.state.windowHeight > this.state.scrollPos) {
-      console.log("They are even and navbar should stick to the top!!!");
-      sticky.classList.add("fixed-top");
-    } else {
-      sticky.classList.remove("fixed-top")
-      console.log("Navbar should not be sticking to the top!!!");
-    }
   };
 
   toggleCollapse = (e) => {
@@ -111,7 +110,7 @@ class nav extends Component {
     };
     return (
       <>
-        <div className="navBarWrapper">
+        <nav id="navBarWrapper">
           {/* Full Screen NavBar */}
           <div id={Styles.row} className="row">
             <div id={Styles.home} className="col-md-2">
@@ -176,7 +175,7 @@ class nav extends Component {
             </div>
           </div>
           {/* Hamburger NavBar */}
-        </div>
+        </nav>
       </>
     );
   }

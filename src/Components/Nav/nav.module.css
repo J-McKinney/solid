@@ -1,4 +1,4 @@
-.navBarWrapper {
+#navBarWrapper {
   /* min-width: 100vw; */
   min-width: 100%;
   margin: 0;
@@ -11,7 +11,7 @@
   margin-bottom: 100px;
 }
 
-.navBarWrapper.fixed-top {
+#navBarWrapper.fixed-top {
   /* min-width: 100vw; */
   min-width: 100%;
   margin: 0;
@@ -24,8 +24,9 @@
   z-index: 1000;
 }
 
-#row {
-  background-color: #1e7df0 !important;
+#row,
+.row {
+  background-color: #1e7df0;
 }
 
 #home,
@@ -63,11 +64,13 @@
   padding: 0;
   margin: 0;
   min-width: 100vw;
+  background-color: #1e7df0;
 }
 #brgrRow {
   float: right;
   text-decoration: none;
   background: #00000000;
+  background-color: #1e7df0; 
 }
 
 .brgrButton {
