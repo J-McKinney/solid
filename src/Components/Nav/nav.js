@@ -30,18 +30,27 @@ class nav extends Component {
   }
 
   updateWindowDimensions() {
-    window.addEventListener('scroll', function() {
+    window.addEventListener("scroll", function () {
       if (window.scrollY > window.innerHeight) {
-        document.getElementById('navBarWrapper').classList.add('fixed-top');
-        // add padding top to show content behind navbar
-        let navbar_height = document.querySelector('#navBarWrapper').offsetHeight;
-        document.body.style.paddingTop = navbar_height + 'px';
+        // Full Screen NavBar
+        document.getElementById("navBarWrapper").classList.add("fixed-top");
+        let navbar_height =
+          document.getElementById("navBarWrapper").offsetHeight;
+        document.body.style.paddingTop = navbar_height + "px";
+        // Hamburger NavBar
+        document.getElementById("hamburgerNavBarWrapper").classList.add("fixed-top");
+        let brgr_navbar_height =
+          document.getElementById("hamburgerNavBarWrapper").offsetHeight;
+        document.body.style.paddingTop = brgr_navbar_height + "px";
       } else {
-        document.getElementById('navBarWrapper').classList.remove('fixed-top');
-         // remove padding top from body
-        document.body.style.paddingTop = '0';
-      } 
-  });
+        // Full Screen NavBar
+        document.getElementById("navBarWrapper").classList.remove("fixed-top");
+        document.body.style.paddingTop = "0";
+        // Hamburger NavBar
+        document.getElementById("hamburgerNavBarWrapper").classList.remove("fixed-top");
+        document.body.style.paddingTop = "0";
+      }
+    });
   }
 
   onscroll = () => {
@@ -53,22 +62,22 @@ class nav extends Component {
     });
   };
 
-  toggleCollapse = (e) => {
-    e.preventDefault();
-    console.log("Clicked On");
-  };
-
   // toggleCollapse = (e) => {
   //   e.preventDefault();
-  //   this.setState({ changeNavBar: !this.state.changeNavBar });
-  //   if (this.state.open === false) {
-  //     this.setState({ open: true });
-  //   } else if (this.state.open === true) {
-  //     this.setState({ open: false });
-  //   } else {
-  //     this.setState({ open: false });
-  //   }
+  //   console.log("Clicked On");
   // };
+
+  toggleCollapse = (e) => {
+    e.preventDefault();
+    this.setState({ changeNavBar: !this.state.changeNavBar });
+    if (this.state.open === false) {
+      this.setState({ open: true });
+    } else if (this.state.open === true) {
+      this.setState({ open: false });
+    } else {
+      this.setState({ open: false });
+    }
+  };
 
   render() {
     // const active = {
@@ -100,7 +109,7 @@ class nav extends Component {
       transition: "0.4s",
     };
     const changeBar1 = {
-      transform: "rotate(-45deg) translate(-7.5px, 6px)",
+      transform: "rotate(-45deg) translate(-7px, 6px)",
     };
     const changeBar2 = {
       opacity: "0",
@@ -149,8 +158,11 @@ class nav extends Component {
           </div>
           {/* Full Screen NavBar */}
           {/* Hamburger NavBar */}
-          <div className={Styles.hamburgerNavBarWrapper}>
-            <div id={Styles.brgrRow} className="row">
+          <div
+            id="hamburgerNavBarWrapper"
+            className={Styles.hamburgerNavBarWrapper}
+          >
+            <div id={Styles.brgrRow} className="brgerRow">
               <div id={Styles.brgrCol} className="col-md-12">
                 <Button
                   className={Styles.brgrButton}

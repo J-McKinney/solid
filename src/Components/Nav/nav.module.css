@@ -1,5 +1,4 @@
 #navBarWrapper {
-  /* min-width: 100vw; */
   min-width: 100%;
   margin: 0;
   padding: 4px 0 0 0;
@@ -8,11 +7,9 @@
   overflow: hidden;
   position: relative;
   z-index: 1000;
-  margin-bottom: 100px;
 }
 
 #navBarWrapper.fixed-top {
-  /* min-width: 100vw; */
   min-width: 100%;
   margin: 0;
   padding: 4px 0 0 0;
@@ -27,6 +24,9 @@
 #row,
 .row {
   background-color: #1e7df0;
+  border-bottom-style: solid;
+  border-bottom-color: #000000;
+  border-bottom-width: 1px;
 }
 
 #home,
@@ -60,22 +60,37 @@
 }
 
 /* Hamburger NavBar */
-.hamburgerNavBarWrapper {
+#hamburgerNavBarWrapper {
   padding: 0;
   margin: 0;
   min-width: 100vw;
-  background-color: #1e7df0;
 }
+#hamburgerNavBarWrapper.fixed-top {
+  padding: 0;
+  margin: 0;
+  min-width: 100vw;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
 #brgrRow {
-  float: right;
+  min-width: 100vw;
   text-decoration: none;
-  background: #00000000;
-  background-color: #1e7df0; 
+  background: #1e7df0;
 }
 
 .brgrButton {
   text-decoration: none;
-  background: #00000000;
+  background: #1e7df0;
+  /* float: right; */
+}
+
+.brgrButton:focus {
+  outline: none;
+  box-shadow: none;
+  background: #1e7df0;
+  border: none;
 }
 
 .bar1,

@@ -3,6 +3,7 @@ import Nav from "../../Components/Nav/nav";
 import AnimatedBG from "../../Components/AnimatedBG/animatedBG";
 import ThreeCol from "../../Components/ThreeColumns/threeColumns";
 import Container from "../../Components/Container/container";
+import Projects from "../../Components/ProjectBoxes/projectBoxes";
 import Styles from "./main.module.css";
 
 class main extends Component {
@@ -27,6 +28,7 @@ class main extends Component {
           <div className={Styles.projectsWrapper}>
             <Container className={Styles.projectsContainer}>
               <h2 className={Styles.projectsTitle}>PROJECTS</h2>
+              <Projects />
             </Container>
           </div>
         </div>
