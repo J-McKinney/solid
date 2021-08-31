@@ -6,12 +6,24 @@ const projectBoxes = (props) => {
     <>
       <div className={Styles.wrapper}>
         <div className={Styles.container}>
-          <div className={Styles.box}></div>
-          <div className={Styles.box}></div>
-          <div className={Styles.box}></div>
-          <div className={Styles.box}></div>
-          <div className={Styles.box}></div>
-          <div className={Styles.box}></div>
+          <div className={Styles.box}>
+            <div className={Styles.innerBox}></div>
+          </div>
+          <div className={Styles.box}>
+            <div className={Styles.innerBox}></div>
+          </div>
+          <div className={Styles.box}>
+            <div className={Styles.innerBox}></div>
+          </div>
+          <div className={Styles.box}>
+            <div className={Styles.innerBox}></div>
+          </div>
+          <div className={Styles.box}>
+            <div className={Styles.innerBox}></div>
+          </div>
+          <div className={Styles.box}>
+            <div className={Styles.innerBox}></div>
+          </div>
         </div>
       </div>
     </>
