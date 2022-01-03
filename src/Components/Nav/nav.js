@@ -26,7 +26,6 @@ class nav extends Component {
     // console.log("open: " + this.state.open);
     // console.log("chang: " + this.state.changeNavBar);
     // console.log("ScrollPos: " + this.state.scrollPos);
-    // console.log("PrevScrollPos: " + this.state.prevScrollPos);
   }
 
   updateWindowDimensions() {
@@ -61,11 +60,6 @@ class nav extends Component {
       changeNavBar: false,
     });
   };
-
-  // toggleCollapse = (e) => {
-  //   e.preventDefault();
-  //   console.log("Clicked On");
-  // };
 
   toggleCollapse = (e) => {
     e.preventDefault();
@@ -109,13 +103,13 @@ class nav extends Component {
       transition: "0.4s",
     };
     const changeBar1 = {
-      transform: "rotate(-45deg) translate(-7px, 6px)",
+      transform: "rotate(-45deg) translate(-7px, 5.5px)",
     };
     const changeBar2 = {
       opacity: "0",
     };
     const changeBar3 = {
-      transform: "rotate(45deg) translate(-7px, -6px)",
+      transform: "rotate(45deg) translate(-7px, -5.5px)",
     };
     return (
       <>
