@@ -50,7 +50,7 @@ class animatedBG extends Component {
               <span className={Styles.span}>Jesse McKinney</span>
             </h2>
           </div>
-          <br />
+          {/* <br /> */}
         </div>
       </>
     );
